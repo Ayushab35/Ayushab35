@@ -1,0 +1,343 @@
+/* Part 1 */
+.color-me{
+    color: rgb(255, 255, 255) !important;
+    border-bottom: 1px solid rgba(255, 153, 153, 0.5);
+    padding-bottom: 3px;
+    border-width: 0 0 1px;
+    font-size:180%;
+    position: relative;
+    z-index: 100;
+    font-family: 'Montserrat', sans-serif;
+}
+ a:hover{
+    color: rgb(255, 0, 0) !important;
+}
+.navbar-nav{
+    text-align: center !important;
+    justify-content: center !important;
+    position: relative;
+    z-index: 100;
+
+}
+
+.navbar-nav li{
+    padding-left: 10vh;
+}
+
+.header{
+    height: 54vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover ;  
+}
+.img{
+    background-image: url('intro-bg.jpg');
+}
+
+.header h1{
+    text-align: center;
+    padding-top: 6vh;
+    padding-bottom: 3vh;
+    font-size: 400%;
+    position: relative;
+    z-index: 100;
+}
+.navbar .navbar-collapse{
+    text-align: center;
+}
+
+.nav-item li{
+    text-decoration: underline !important;
+}
+.gusto{
+    color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 100;
+    font-family: 'Rock Salt', cursive;
+}
+
+.backgg{
+    background: rgb(0, 0, 0);
+    filter: alpha(opacity=100);
+    -khtml-opacity: 0.4;
+    -moz-opacity: 0.3;  
+    opacity: 0.4;
+    
+    position: absolute;
+    height: 54vh;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    
+}
+
+.navbar-toggler{
+    color: green !important;
+}
+
+.navbar{
+    text-align: center;
+}
+/* Part 2 */
+
+.further
+{
+    background-image: url('02.jpg');
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    margin-top: 20vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover ;  
+    position: relative;
+    z-index: 100;
+}
+
+.further h1{
+    font-size: 400%;
+    padding-bottom: 5vh;
+    color: seashell;
+    position: relative;
+    z-index: 100;
+}
+
+.further h6{
+    font-size: 150%;
+    color: seashell;
+    position: relative;
+    z-index: 100;
+}
+
+.container{
+    margin-bottom: 5vh;
+}
+.my-bt{
+    background-color: #FA9C31;
+    width: 200px;
+    color: seashell !important;
+    margin-top: 3vh;
+    border: none;
+    
+}
+
+.mt-bt a{
+    color: seashell !important;
+    font-size: 100vh;
+}
+
+.mt-bt a:hover{
+    background-color: white;
+}
+
+.backg{
+    background: rgb(150, 150, 150);
+    filter: alpha(opacity=100);
+    -khtml-opacity: 0.4;
+    -moz-opacity: 0.3;  
+    opacity: 0.4;
+    
+    position: absolute;
+    height: 71.2vh;
+    top: 74vh;
+    right: 22.6vh;
+    bottom: 0px;
+    left: 22.6vh;
+}
+
+/*  Part 3 */
+
+.inner{
+    text-align: center;
+}
+.line{
+    color: sienna;
+    width: 150px;
+    height: 10px;
+    border-top: 2px solid red;
+
+}
+
+
+/* part 3 */
+.card{
+    display: block;
+    margin-right: 0vh;
+    margin-left: 5vh;
+    padding-left: 0;
+    padding-right: 0;
+    box-shadow: 2px 3px 10px #bdbcbc;
+    margin-bottom: 2vh;
+    margin-top: 3vh;
+}
+.chotu{
+    padding-right: 3vh;
+    padding-left: 4vh;
+    margin-bottom: 3vh;
+    margin-top: 0%;
+}
+
+.col-sm h2{
+    text-align: center;
+    font-size: 200%;
+    color: rgb(255, 123, 0);
+}
+.col-sm h6{
+    text-align: center;
+    color: rgb(202, 162, 108);
+}
+
+/* part-4 */
+
+.container-4{
+    padding-right: 10vh;
+    padding-left: 10vh;
+}
+
+.newtype{
+    color: rgb(255, 0, 0);
+    font-size: 1.3rem;
+}
+
+.newtype-2{
+    font-weight: 600;
+}
+
+#restaurant-menu{
+    margin-bottom: 40px;
+}
+.container-4{
+    margin-bottom: 100px;
+}
+
+/* Part 5 */
+
+.form-group{
+    align-items: center;
+    justify-content: center;
+}
+
+.social-1 a{
+    text-decoration: none;
+}
+/* Media query */
+@media screen and (max-width: 990px) 
+{
+    .navbar{
+        position: relative;
+       z-index: 100;
+       font-size: 70%;
+    }
+    .navbar-nav li{
+        padding-left: 0vh;
+    }
+    
+    .header{
+        height: 83vh;
+    }
+
+    .header h1{
+        font-size: 300%;
+        position: relative;
+    }
+
+    .backgg{
+        height: 83vh;
+    }
+
+    /* part 2 */
+    .further
+    {
+        text-align: center;
+        padding-bottom: 10vh;
+        padding-top: 10vh;
+        margin-top: 1vh;
+        padding-right: 2vh;
+        padding-left: 2vh;
+        overflow-x: hidden;
+    }
+    .container{
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+    }
+
+    .backg{
+        background: rgb(150, 150, 150);
+        filter: alpha(opacity=100);
+        -khtml-opacity: 0.2;
+        -moz-opacity: 0.2;  
+        opacity: 0.2;
+        
+        position: absolute;
+        height: 75.2vh;
+        top: 84vh;
+        right: 0vh;
+        bottom: 0px;
+        left: 0vh;
+    }
+
+    /* part 3 */
+
+    
+
+@media screen and (max-width: 800px) 
+{
+    .further
+    {
+        text-align: center;
+        padding-bottom: 10vh;
+        padding-top: 10vh;
+        margin-top: 1vh;
+    }
+    .container{
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+    }
+
+    .card{
+        /* margin-bottom: 10vh; */
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-1{
+        display: grid;
+    }
+}
+}
+
+@media screen and (max-width: 768px)
+{
+    .further
+    {
+        text-align: center;
+        padding-bottom: 10vh;
+        padding-top: 10vh;
+        margin-top: 1vh;
+    }
+    .container{
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: px)
+{
+    .further
+    {
+        text-align: center;
+        padding-bottom: 10vh;
+        padding-top: 10vh;
+        margin-top: 1vh;
+    }
+    .container{
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+    }
+}
